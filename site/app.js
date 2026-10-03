@@ -10,8 +10,6 @@
   const ICON = {
     pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>',
     expand: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
-    star: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg>',
-    out: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   };
 
   let current = null; // last loaded photos.json
@@ -61,11 +59,6 @@
             <span class="sep">•</span>
             <a href="${esc(safeUrl(p.license_url))}" target="_blank" rel="noopener license">${esc(p.license)}</a>
           </div>
-          <div class="actions">
-            ${p.score_label ? `<span class="chip score" title="Why this photo won">${ICON.star}${esc(p.score_label)}</span>` : ''}
-            ${p.pool_size ? `<span class="chip" title="Photos that qualified this round">#${p.rank || 1} of ${p.pool_size} from the last ${p.window_days} days</span>` : ''}
-            <a class="chip" href="${esc(safeUrl(p.page_url))}" target="_blank" rel="noopener">View original on ${esc(p.source_name || 'source')} ${ICON.out}</a>
-          </div>
         </div>
       </div>`;
   }
@@ -78,7 +71,7 @@
       return;
     }
     const list = shortlistOf(photo);
-    const shown = { ...list[activeIndex], rank: activeIndex === 0 ? photo.rank : undefined, pool_size: activeIndex === 0 ? photo.pool_size : undefined, window_days: photo.window_days };
+    const shown = list[activeIndex];
 
     panel.innerHTML = `
       ${frameHtml(region, shown)}

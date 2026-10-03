@@ -91,5 +91,5 @@ npx serve site      # or: python3 -m http.server -d site 8000
 - **Recency window:** `RECENCY_WINDOWS_DAYS` in `core.mjs`
 
 ## Notes
-- Images are hotlinked from Wikimedia/Unsplash, as Unsplash's API guidelines require, and every photo shows its photographer, license and a link to the original.
+- Images are hotlinked from Wikimedia/Unsplash, as Unsplash's API guidelines require, and every photo shows its photographer (linked to their profile) and license.
 - The workflow commits `photos.json` on every run. This keeps a history of picks, and it keeps the repo "active" so GitHub doesn't pause the schedule after 60 days of inactivity.

@@ -204,10 +204,11 @@ export async function commonsEurope({ now = Date.now(), windows } = {}) {
       return Number.isNaN(p.lat) || inBox(p.lat, p.lon, EUROPE_BOX);
     },
     (p, q) => {
-      const c = q.country;
-      const confirmed = mentions(p._text, c.terms) || inBox(p.lat, p.lon, c.box);
-      const name = confirmed ? c.name : 'Europe';
-      return { ...p, location: name, country: name };
+      // Always label a country: the searched one if the photo confirms it, else
+      // any other country it clearly matches, else the tree it was found in.
+      const matches = (c) => mentions(p._text, c.terms) || inBox(p.lat, p.lon, c.box);
+      const c = matches(q.country) ? q.country : EUROPE_COUNTRIES.find(matches) ?? q.country;
+      return { ...p, location: c.name, country: c.name };
     },
   );
   return finish(pool, now, windows);

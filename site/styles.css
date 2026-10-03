@@ -183,21 +183,6 @@ button { font: inherit; color: inherit; }
 .meta a:hover { border-color: var(--accent); }
 .meta .sep { opacity: 0.35; }
 
-.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
-.chip {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 7px 12px;
-  border-radius: 999px;
-  font-size: 0.78rem; font-weight: 500;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.chip.score { background: var(--accent-soft); border-color: rgba(242, 166, 90, 0.35); color: #ffd6ad; }
-.chip svg { width: 13px; height: 13px; }
-a.chip:hover { background: rgba(255, 255, 255, 0.18); }
-
 /* ------------------------------------------------------------ shortlist */
 .shortlist-label {
   font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
