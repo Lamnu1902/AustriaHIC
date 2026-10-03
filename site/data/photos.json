@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T03:52:23.410Z",
+  "generated_at": "2026-10-03T04:06:18.223Z",
   "next_update_at": "2026-10-03T06:00:00.000Z",
   "slot": 82916,
   "ranking": "commons-curation",
   "austria": {
-    "id": "commons:Giglachseeh%C3%BCtte_-_Schladminger_Tauern.jpg",
+    "id": "commons:200650984",
     "source": "wikimedia",
     "source_name": "Wikimedia Commons",
     "title": "Giglachseehütte - Schladminger Tauern",
@@ -23,8 +23,8 @@
     "uploaded_at": "2026-09-30T08:21:27Z",
     "location": "Austria",
     "country": "Austria",
-    "score_label": "26 MP original",
     "score": 7.23,
+    "score_label": "26 MP original",
     "window_days": 7,
     "pool_size": 5,
     "rank": 1,
@@ -51,7 +51,7 @@
     ]
   },
   "europe": {
-    "id": "commons:Ehrenbach%2C_Malbach_valley_to_south.jpg",
+    "id": "commons:200731988",
     "source": "wikimedia",
     "source_name": "Wikimedia Commons",
     "title": "Ehrenbach, Malbach valley to south",
@@ -67,13 +67,13 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "taken_at": "2026-09-29T15:05:00.000Z",
-    "uploaded_at": "2026-09-30T10:00:00Z",
+    "uploaded_at": "2026-10-01T09:37:53Z",
     "location": "Europe",
     "country": "Europe",
-    "score_label": "11 MP original",
     "score": 5.97,
+    "score_label": "11 MP original",
     "window_days": 7,
-    "pool_size": 13,
+    "pool_size": 12,
     "rank": 1,
     "alternates": [
       {
@@ -113,6 +113,44 @@
         "width": 7190,
         "height": 2512,
         "description": "Vista panoramica sulla Valsassina dalla croce dello Zucco della Croce"
+      },
+      {
+        "title": "Wiwannihütte mit Wiwannihorn",
+        "location": "Switzerland",
+        "image_small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wiwannih%C3%BCtte_mit_Wiwannihorn.jpg/960px-Wiwannih%C3%BCtte_mit_Wiwannihorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wiwannih%C3%BCtte_mit_Wiwannihorn.jpg/1920px-Wiwannih%C3%BCtte_mit_Wiwannihorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Wiwannih%C3%BCtte_mit_Wiwannihorn.jpg",
+        "author": "Daniel Reust",
+        "author_url": "https://commons.wikimedia.org/wiki/User:Reustli",
+        "taken_at": "2026-09-28T18:10:00.000Z",
+        "score_label": "9 MP original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "wikimedia",
+        "source_name": "Wikimedia Commons",
+        "color": null,
+        "width": 4024,
+        "height": 2260,
+        "description": "Wiwannihütte mit Wiwannihorn"
+      },
+      {
+        "title": "Schöniseibach bei der Mündung in die Emme",
+        "location": "Switzerland",
+        "image_small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Sch%C3%B6niseibach_bei_der_M%C3%BCndung_in_die_Emme.jpg/960px-Sch%C3%B6niseibach_bei_der_M%C3%BCndung_in_die_Emme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Sch%C3%B6niseibach_bei_der_M%C3%BCndung_in_die_Emme.jpg/1920px-Sch%C3%B6niseibach_bei_der_M%C3%BCndung_in_die_Emme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Sch%C3%B6niseibach_bei_der_M%C3%BCndung_in_die_Emme.jpg",
+        "author": "Arkelin",
+        "author_url": "https://commons.wikimedia.org/wiki/User:Arkelin",
+        "taken_at": "2026-09-27T12:00:00.000Z",
+        "score_label": "20 MP original",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "wikimedia",
+        "source_name": "Wikimedia Commons",
+        "color": null,
+        "width": 5184,
+        "height": 3888,
+        "description": "Schöniseibach, Bachbett im Kalkfelsen, bei Küblisbühl, Flühli, Kanton Luzern"
       }
     ]
   }
