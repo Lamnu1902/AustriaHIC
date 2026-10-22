@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T17:11:49.876Z",
-  "next_update_at": "2026-10-22T18:00:00.000Z",
-  "slot": 82994,
+  "generated_at": "2026-10-22T21:36:58.288Z",
+  "next_update_at": "2026-10-23T00:00:00.000Z",
+  "slot": 82995,
   "ranking": "commons-curation",
   "austria": {
     "id": "commons:202120354",
@@ -23,7 +23,7 @@
     "uploaded_at": "2026-10-22T12:09:17Z",
     "location": "Styria, Austria",
     "country": "Austria",
-    "score": 7.84,
+    "score": 7.8,
     "score_label": "24 MP original",
     "window_days": 7,
     "pool_size": 7,
@@ -50,11 +50,11 @@
     "uploaded_at": "2026-10-16T13:21:04Z",
     "location": "Spain",
     "country": "Spain",
-    "score": 4.8,
+    "score": 4.76,
     "score_label": "16 MP original",
     "window_days": 7,
-    "pool_size": 5,
-    "rank": 3,
+    "pool_size": 6,
+    "rank": 4,
     "alternates": [
       {
         "title": "Talberg (Wittgendorf) - view from southwest",
@@ -74,6 +74,25 @@
         "width": 4096,
         "height": 3072,
         "description": "View from the southwest near Wittgendorf towards Talberg, Thuringia, Germany."
+      },
+      {
+        "title": "Río Iro - IMG20261022165031",
+        "location": "Portugal",
+        "image_small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/R%C3%ADo_Iro_-_IMG20261022165031.jpg/960px-R%C3%ADo_Iro_-_IMG20261022165031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/R%C3%ADo_Iro_-_IMG20261022165031.jpg/1920px-R%C3%ADo_Iro_-_IMG20261022165031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Iro_-_IMG20261022165031.jpg",
+        "author": "El Pantera",
+        "author_url": "https://commons.wikimedia.org/wiki/User:El_Pantera",
+        "taken_at": "2026-10-22T16:50:00.000Z",
+        "score_label": "8 MP original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "wikimedia",
+        "source_name": "Wikimedia Commons",
+        "color": null,
+        "width": 3264,
+        "height": 2448,
+        "description": "Río Iro (Chilana de la Fra.)"
       },
       {
         "title": "View of St Julian's Fort",
