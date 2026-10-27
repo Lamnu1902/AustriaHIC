@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:02:14.516Z",
+  "generated_at": "2026-10-27T22:15:09.754Z",
   "next_update_at": "2026-10-28T00:00:00.000Z",
   "slot": 83015,
   "ranking": "commons-curation",
@@ -23,12 +23,32 @@
     "uploaded_at": "2026-10-24T09:28:43Z",
     "location": "Austria",
     "country": "Austria",
-    "score": 4.78,
+    "score": 4.75,
     "score_label": "12 MP original",
     "window_days": 7,
-    "pool_size": 1,
-    "rank": 1,
-    "alternates": []
+    "pool_size": 2,
+    "rank": 2,
+    "alternates": [
+      {
+        "title": "Biberdamm am Mühlbach im Europaschutzgebiet Leiblach",
+        "location": "Vorarlberg, Austria",
+        "image_small": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Biberdamm_am_M%C3%BChlbach_im_Europaschutzgebiet_Leiblach.jpg/960px-Biberdamm_am_M%C3%BChlbach_im_Europaschutzgebiet_Leiblach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Biberdamm_am_M%C3%BChlbach_im_Europaschutzgebiet_Leiblach.jpg/1920px-Biberdamm_am_M%C3%BChlbach_im_Europaschutzgebiet_Leiblach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Biberdamm_am_M%C3%BChlbach_im_Europaschutzgebiet_Leiblach.jpg",
+        "author": "Robinhood50",
+        "author_url": "https://commons.wikimedia.org/wiki/User:Robinhood50",
+        "taken_at": "2026-10-27T12:00:00.000Z",
+        "score_label": "16 MP original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "wikimedia",
+        "source_name": "Wikimedia Commons",
+        "color": null,
+        "width": 4739,
+        "height": 3309,
+        "description": "Biberdamm am Mühlbach im Europaschutzgebiet Leiblach"
+      }
+    ]
   },
   "europe": {
     "id": "commons:202276000",
@@ -50,7 +70,7 @@
     "uploaded_at": "2026-10-26T18:31:47Z",
     "location": "France",
     "country": "France",
-    "score": 6.47,
+    "score": 6.43,
     "score_label": "24 MP original",
     "window_days": 7,
     "pool_size": 19,
